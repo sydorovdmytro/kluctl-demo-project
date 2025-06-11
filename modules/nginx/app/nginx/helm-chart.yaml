@@ -1,6 +1,6 @@
 helmChart:
   repo: oci://registry-1.docker.io/bitnamicharts/nginx
-  chartVersion: "{{ args.version }}"
+  chartVersion: "{{ config.version }}"
   releaseName: "nginx-{{ target.name }}"
-  namespace: "{{ args.namespace }}"
+  namespace: "{{ config.namespace }}"
   skipPrePull: true
