@@ -1,0 +1,5 @@
+discriminator: "full-{{ target.name }}"
+
+targets:
+  - name: dev
+

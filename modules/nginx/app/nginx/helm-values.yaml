@@ -1,0 +1,3 @@
+{% if args.nginx_values is defined and args.nginx_values %}
+{{ args.nginx_values | to_yaml | indent(0) }}
+{% endif %}

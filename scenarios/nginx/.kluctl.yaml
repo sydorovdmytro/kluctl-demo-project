@@ -1,0 +1,10 @@
+discriminator: "nginx-{{ target.name }}-{{ args.namespace }}"
+
+targets:
+  - name: dev
+
+args:
+  - name: namespace
+    default: nginx
+  - name: version
+    default: 20.1.0

@@ -1,0 +1,6 @@
+deployments:
+  - include: ../nginx
+    vars:
+      - values:
+          namespace: "foo"
+          version: "20.0.8"
