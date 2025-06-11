@@ -1,0 +1,4 @@
+discriminator: "redis-{{ target.name }}"
+
+targets:
+  - name: dev

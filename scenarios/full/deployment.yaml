@@ -5,3 +5,4 @@ deployments:
           config:
             namespace: "test"
             version: "20.0.8"
+  - include: ../redis
